@@ -1,0 +1,18 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pfb" x1="0" x2="1"><stop offset="0" stop-color="#FF88A5"></stop><stop offset="1" stop-color="#FF4D7A"></stop></linearGradient>
+    <radialGradient id="pfshine" cx="30%" cy="22%" r="62%"><stop offset="0" stop-color="#fff" stop-opacity="0.9"></stop><stop offset="1" stop-color="#fff" stop-opacity="0"></stop></radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="64" fill="#FF6F91"></rect>
+  <g transform="translate(256,260) scale(0.85)">
+    <g fill="url(#pfb)" stroke="#D43A66" stroke-width="2">
+      <path d="M0,-92 L24,-30 L92,-6 L36,24 L56,86 L0,50 L-56,86 L-36,24 L-92,-6 L-24,-30 Z"></path>
+    </g>
+    <circle cx="0" cy="8" r="18" fill="#FFE6EE"></circle>
+    <g transform="translate(-30,28)" fill="#FFB6D0">
+      <circle cx="0" cy="0" r="6"></circle><circle cx="26" cy="6" r="6"></circle><circle cx="52" cy="0" r="6"></circle>
+    </g>
+    <ellipse cx="-18" cy="-60" rx="76" ry="36" fill="url(#pfshine)" transform="rotate(-25 -18 -60)"></ellipse>
+  </g>
+</svg>
