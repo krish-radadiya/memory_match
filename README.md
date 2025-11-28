@@ -56,6 +56,7 @@ Back and front designed separately and swapped based on angle
 High-quality fruit images loaded with fallback safety
 
 https://github.com/user-attachments/assets/627ba8e8-57b6-455e-a109-d61ddb610893 
+
 https://github.com/user-attachments/assets/96eeb1d0-9de0-4407-861d-fffed27e2b75
 
 
