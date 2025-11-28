@@ -1,16 +1,58 @@
-# memory_match
+📱 Memory Match Game (Flutter)
 
-A new Flutter project.
+A polished and responsive memory card matching game built using Flutter + GetX, designed to test logic, animation handling, and UI consistency.
 
-## Getting Started
+🚀 Features
+🎮 Gameplay
 
-This project is a starting point for a Flutter application.
+Smooth 3D flip animation
 
-A few resources to get you started if this is your first Flutter project:
+Correct match detection
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Automatic reset for wrong matches
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Attempt limit with Game Over
+
+Win screen with replay option
+
+🧠 State Management
+
+GetX used for lightweight and safe reactive updates
+
+Only affected card widgets rebuild, improving performance
+
+Game reset safely clears timers, states, and animations
+
+🎨 UI / UX
+
+Fully responsive with Sizer
+
+Gradient cards with fruit icons
+
+Name label under each fruit
+
+Animated flip effect with depth & shadow
+
+Clean puzzle-game layout
+
+🔒 Logic Safety
+
+Flip actions are blocked while comparing cards
+
+isBusy prevents rapid tapping and race conditions
+
+All animations triggered after frame build to avoid GetX errors
+
+Dialogs (Win/Game Over) opened safely outside build context
+
+🎞️ Animation Approach
+
+Card flip uses AnimationController + Transform.rotateY
+
+Lift effect added using sin(angle) for 3D feel
+
+Back and front designed separately and swapped based on angle
+
+High-quality fruit images loaded with fallback safety
+
+
