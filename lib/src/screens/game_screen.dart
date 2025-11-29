@@ -103,7 +103,7 @@ class _GameScreenState extends State<GameScreen> with SingleTickerProviderStateM
         children: [
           Scaffold(
             appBar: AppBar(
-              // backgroundColor: AppColors.appBar,
+              backgroundColor: AppColors.appBar,
               elevation: 0,
               centerTitle: true,
               // title: _buildTitleWidget(),
@@ -159,37 +159,37 @@ class _GameScreenState extends State<GameScreen> with SingleTickerProviderStateM
                   child: Transform.scale(scale: 0.8 + 0.6 * t, child: child),
                 );
               },
-              child: Center(
-                child: Container(
-                  width: 70.w,
-                  height: 40.h,
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(colors: [Colors.white24, Colors.white10]),
-                    borderRadius: BorderRadius.circular(5.w),
-                    boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.6), blurRadius: 20)],
-                  ),
-                  alignment: Alignment.center,
-                  // child: Column(
-                  //   mainAxisSize: MainAxisSize.min,
-                  //   children: [
-                  //     Text("YOU WIN!", style: TextStyle(fontSize: 20.sp, fontWeight: FontWeight.w900, color: Colors.white)),
-                  //     SizedBox(height: 2.h),
-                  //     Text("All matched — congrats!", style: TextStyle(fontSize: 11.sp, color: Colors.white70)),
-                  //   ],
-                  // ),
-                ),
-              ),
+              // child: Center(
+              //   child: Container(
+              //     width: 70.w,
+              //     height: 40.h,
+              //     decoration: BoxDecoration(
+              //       gradient: LinearGradient(colors: [Colors.white24, Colors.white10]),
+              //       borderRadius: BorderRadius.circular(5.w),
+              //       boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.6), blurRadius: 20)],
+              //     ),
+              //     // alignment: Alignment.center,
+              //     // child: Column(
+              //     //   mainAxisSize: MainAxisSize.min,
+              //     //   children: [
+              //     //     Text("YOU WIN!", style: TextStyle(fontSize: 20.sp, fontWeight: FontWeight.w900, color: Colors.white)),
+              //     //     SizedBox(height: 2.h),
+              //     //     Text("All matched — congrats!", style: TextStyle(fontSize: 11.sp, color: Colors.white70)),
+              //     //   ],
+              //     // ),
+              //   ),
+              // ),
             ),
         ],
       );
     });
   }
 
-  Widget _buildTitleWidget() {
-    // show image if present, otherwise text
-    final image = Image.asset('assets/images/title_logo.png', height: 6.h, errorBuilder: (c, e, s) {
-      return Text(AppStrings.title, style: AppTextStyles.appBarTitle);
-    });
-    return image;
-  }
+  // Widget _buildTitleWidget() {
+  //   // show image if present, otherwise text
+  //   final image = Image.asset('assets/images/title_logo.png', height: 6.h, errorBuilder: (c, e, s) {
+  //     return Text(AppStrings.title, style: AppTextStyles.appBarTitle);
+  //   });
+  //   return image;
+  // }
 }

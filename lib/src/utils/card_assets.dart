@@ -15,5 +15,5 @@ const Map<String, CardAsset> cardAssetMap = {
   'C': CardAsset(id: 'C', asset: 'assets/images/mango.png', color: Color(0xFFFFD54F), label: 'Mango'),
   'D': CardAsset(id: 'D', asset: 'assets/images/chocolate-bar.png', color: Color(0xFF7B4F3B), label: 'Chocolate'),
   'E': CardAsset(id: 'E', asset: 'assets/images/mint.png', color: Color(0xFF2ECC71), label: 'Mint'),
-  'F': CardAsset(id: 'F', asset: 'assets/images/passionfruit.png', color: Color(0xFFFF6F91), label: 'Passionfruit'),
+  'F': CardAsset(id: 'F', asset: 'assets/images/fruit.png', color: Color(0xFFFF6F91), label: 'Passionfruit'),
 };

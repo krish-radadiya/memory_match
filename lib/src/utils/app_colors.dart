@@ -8,4 +8,5 @@ class AppColors {
   static const Color matched = Color(0xFF27AE60);
   static const Color accent = Color(0xFFFFB86B);
   static const Color hudText = Colors.white70;
+  static const Color matchedOverlay = Color(0x99000000); // semi-transparent overlay for matched
 }
